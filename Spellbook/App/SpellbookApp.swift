@@ -1,4 +1,5 @@
 import SwiftUI
+import SwiftData
 
 @main
 struct SpellbookApp: App {
@@ -6,5 +7,6 @@ struct SpellbookApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: [Spellbook.self, SpellbookEntry.self])
     }
 }
