@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1F3F392A7B4E6B00112233 /* SpellbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1F3F272A7B4E6B00112233 /* SpellbookApp.swift */; };
+		4C1F3F3A2A7B4E6B00112233 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1F3F282A7B4E6B00112233 /* ContentView.swift */; };
+		4C1F3F3B2A7B4E6B00112233 /* SpellsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1F3F292A7B4E6B00112233 /* SpellsView.swift */; };
+		4C1F3F3C2A7B4E6B00112233 /* SpellbooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1F3F2A2A7B4E6B00112233 /* SpellbooksView.swift */; };
+		4C1F3F3D2A7B4E6B00112233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F3F2B2A7B4E6B00112233 /* Assets.xcassets */; };
+		4C1F3F3E2A7B4E6B00112233 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F3F2C2A7B4E6B00112233 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C1F3F272A7B4E6B00112233 /* SpellbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellbookApp.swift; sourceTree = "<group>"; };
+		4C1F3F282A7B4E6B00112233 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C1F3F292A7B4E6B00112233 /* SpellsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsView.swift; sourceTree = "<group>"; };
+		4C1F3F2A2A7B4E6B00112233 /* SpellbooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellbooksView.swift; sourceTree = "<group>"; };
+		4C1F3F2B2A7B4E6B00112233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C1F3F2C2A7B4E6B00112233 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C1F3F2D2A7B4E6B00112233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1F3F3F2A7B4E6B00112233 /* Spellbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Spellbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C1F3F252A7B4E6B00112233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C1F3F1B2A7B4E6B00112233 = {
+			isa = PBXGroup;
+			children = (
+				4C1F3F2E2A7B4E6B00112233 /* Spellbook */,
+				4C1F3F1C2A7B4E6B00112233 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C1F3F1C2A7B4E6B00112233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C1F3F3F2A7B4E6B00112233 /* Spellbook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C1F3F2E2A7B4E6B00112233 /* Spellbook */ = {
+			isa = PBXGroup;
+			children = (
+				4C1F3F2F2A7B4E6B00112233 /* App */,
+				4C1F3F302A7B4E6B00112233 /* Models */,
+				4C1F3F312A7B4E6B00112233 /* Persistence */,
+				4C1F3F322A7B4E6B00112233 /* Networking */,
+				4C1F3F332A7B4E6B00112233 /* Repositories */,
+				4C1F3F342A7B4E6B00112233 /* ViewModels */,
+				4C1F3F352A7B4E6B00112233 /* Views */,
+				4C1F3F362A7B4E6B00112233 /* Utilities */,
+				4C1F3F382A7B4E6B00112233 /* Resources */,
+				4C1F3F372A7B4E6B00112233 /* Preview Content */,
+			);
+			path = Spellbook;
+			sourceTree = "<group>";
+		};
+		4C1F3F2F2A7B4E6B00112233 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4C1F3F272A7B4E6B00112233 /* SpellbookApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4C1F3F302A7B4E6B00112233 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C1F3F312A7B4E6B00112233 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		4C1F3F322A7B4E6B00112233 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4C1F3F332A7B4E6B00112233 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		4C1F3F342A7B4E6B00112233 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4C1F3F352A7B4E6B00112233 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C1F3F282A7B4E6B00112233 /* ContentView.swift */,
+				4C1F3F292A7B4E6B00112233 /* SpellsView.swift */,
+				4C1F3F2A2A7B4E6B00112233 /* SpellbooksView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C1F3F362A7B4E6B00112233 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4C1F3F372A7B4E6B00112233 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4C1F3F2C2A7B4E6B00112233 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C1F3F382A7B4E6B00112233 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C1F3F2B2A7B4E6B00112233 /* Assets.xcassets */,
+				4C1F3F2D2A7B4E6B00112233 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C1F3F1D2A7B4E6B00112233 /* Spellbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1F3F1F2A7B4E6B00112233 /* Build configuration list for PBXNativeTarget "Spellbook" */;
+			buildPhases = (
+				4C1F3F242A7B4E6B00112233 /* Sources */,
+				4C1F3F262A7B4E6B00112233 /* Resources */,
+				4C1F3F252A7B4E6B00112233 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spellbook;
+			productName = Spellbook;
+			productReference = 4C1F3F3F2A7B4E6B00112233 /* Spellbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C1F3F1A2A7B4E6B00112233 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4C1F3F1D2A7B4E6B00112233 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 4C1F3F1E2A7B4E6B00112233 /* Build configuration list for PBXProject "Spellbook" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C1F3F1B2A7B4E6B00112233;
+			productRefGroup = 4C1F3F1C2A7B4E6B00112233 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C1F3F1D2A7B4E6B00112233 /* Spellbook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C1F3F262A7B4E6B00112233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1F3F3D2A7B4E6B00112233 /* Assets.xcassets in Resources */,
+				4C1F3F3E2A7B4E6B00112233 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C1F3F242A7B4E6B00112233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1F3F392A7B4E6B00112233 /* SpellbookApp.swift in Sources */,
+				4C1F3F3A2A7B4E6B00112233 /* ContentView.swift in Sources */,
+				4C1F3F3B2A7B4E6B00112233 /* SpellsView.swift in Sources */,
+				4C1F3F3C2A7B4E6B00112233 /* SpellbooksView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C1F3F202A7B4E6B00112233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4C1F3F212A7B4E6B00112233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4C1F3F222A7B4E6B00112233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Spellbook/Resources/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doover17.spellbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4C1F3F232A7B4E6B00112233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Spellbook/Resources/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doover17.spellbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C1F3F1E2A7B4E6B00112233 /* Build configuration list for PBXProject "Spellbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1F3F202A7B4E6B00112233 /* Debug */,
+				4C1F3F212A7B4E6B00112233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1F3F1F2A7B4E6B00112233 /* Build configuration list for PBXNativeTarget "Spellbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1F3F222A7B4E6B00112233 /* Debug */,
+				4C1F3F232A7B4E6B00112233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C1F3F1A2A7B4E6B00112233 /* Project object */;
+}
